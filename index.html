@@ -10,7 +10,33 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = 
+        {
+            apiKey: "AIzaSyAWewikGyFLeXt8zPSqO28UvbMBup3lvrk",
+            authDomain: "firemessages-a1c6f.firebaseapp.com",
+            projectId: "firemessages-a1c6f",
+            storageBucket: "firemessages-a1c6f.appspot.com",
+            messagingSenderId: "779831424559",
+            appId: "1:779831424559:web:f4abf283215aaed2e6b8da",
+            measurementId: "G-XTDF5W69D5"
+        };
+  // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 
 
     <!--custom files-->
